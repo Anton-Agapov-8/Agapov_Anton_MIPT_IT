@@ -1,6 +1,6 @@
 from random import choice, randrange
 
-f = open("test2.txt", 'r', encoding='utf8')
+f = open("input.txt", 'r', encoding='utf8')
 s = f.read()
 s = s.replace('\n', ' ')
 text = s.split()
