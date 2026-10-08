@@ -58,7 +58,7 @@ mainframe.columnconfigure(1, weight=1)
 mainframe.columnconfigure(2, weight=1)
 mainframe.columnconfigure(3, weight=1)
 
-Button(mainframe, text="Calculate", command=find_random_film).grid(column=100, row=4, sticky=W)
+Button(mainframe, text="Найти фильм", command=find_random_film).grid(column=100, row=4, sticky=W)
 
 genres = get_genres()
 # print(genres)
