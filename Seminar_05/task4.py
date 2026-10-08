@@ -69,6 +69,5 @@ for child in mainframe.winfo_children():
     child.grid_configure(padx=5, pady=5)
 
 r_entry.focus()
-root.bind("<Return>", calculate)
 
 root.mainloop()
