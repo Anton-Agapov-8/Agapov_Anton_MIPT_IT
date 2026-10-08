@@ -40,9 +40,6 @@ mainframe.columnconfigure(1, weight=1)
 mainframe.columnconfigure(2, weight=1)
 mainframe.columnconfigure(3, weight=1)
 
-imt = StringVar()
-Label(mainframe, textvariable=imt).grid(column=2, row=2, sticky='NWES')
-
 Button(mainframe, text="Calculate", command=calculate).grid(column=100, row=4, sticky=W)
 
 Label(mainframe, text='R').grid(column=1, row=1, sticky='NWES')
