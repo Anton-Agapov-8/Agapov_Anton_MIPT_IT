@@ -1,0 +1,6 @@
+a = set(map(int, input().split()))
+b = set(map(int, input().split()))
+print(f'Уникальные элементы a: {' '.join(map(str, list(a)))}')
+print(f'Уникальные элементы b: {' '.join(map(str, list(b)))}')
+print(f'Уникальные элементы a∪b: {' '.join(map(str, list(a.union(b))))}')
+print(f'Элементы a∩b: {' '.join(map(str, list(a.intersection(b))))}')
